@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: General News is a high-quality WordPress theme designed for news, blog, and magazine websites. The theme includes several free demo sites that can be imported with a single click to build a wonderful news portal. The theme is entirely widgetized, allowing users to manage site content through the use of 9+ custom widgets and widget sections. It also has a variety of main banner choices, as well as a light and dark site mode for reading articles and blog entries in style. It also comes with a number of essential customizer options for constructing a visually appealing news site. You can configure it as you see fit before publishing any changes with the live customizer. The RTL supported theme is compatible with Elementor, Gutenberg blocks, and the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The theme is suitable for use on a news, journal, magazine, publication, or review website, as well as for blogging. It's well-designed to help the website rank better in search engines, and visitors will receive fantastic support from the team if they have any problems utilizing it. Find all demos and documentaion at https://afthemes.com/products/generalnews/
 Template: morenews
-Version: 1.0.5
+Version: 1.0.6
 Requires PHP: 5.6
 Tested up to: 6.8
 License: GNU General Public License v2 or later
@@ -20,7 +20,19 @@ General News WordPress Theme, Copyright 2024 AF themes
 General News is distributed under the terms of the GNU GPL v2 or later.
 */
 
-
+body .reply a,
+div#respond input[type="submit"],
+.btn-style1 a:visited,
+.btn-style1 a,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    padding: 5px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
 
 .exclusive-posts .exclusive-now{
     background-color: #bb1919;
