@@ -45,7 +45,6 @@ function generalnews_filter_default_theme_options($defaults)
     $defaults['site_title_uppercase']  = 0;
     $defaults['show_watch_online_section']  = 0;
     $defaults['show_primary_menu_desc']  = 0;
-    $defaults['global_show_min_read'] = 'no';
     $defaults['aft_custom_title']           = __('Watch Videos', 'general-news');
 
     return $defaults;
