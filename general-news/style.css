@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: General News is a practical, widgetized WordPress child theme built on MoreNews for newspapers and journals requiring a reliable, easy-to-configure architecture. It features 9+ custom widgets, multiple banner choices, and a header and footer builder for efficient layout management. The theme is compatible with the Block Editor and major page builders, focusing on search engine optimization and Core Web Vitals for maximum visibility. It is AMP-ready, WCAG-accessible, and multilingual, designed to help global publishers launch search-friendly, content-rich sites quickly. https://afthemes.com/products/generalnews/
 Template: morenews
-Version: 2.0.4
+Version: 2.1.0
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.0
@@ -52,4 +52,11 @@ article.sticky .af-double-column.no-post-image .read-single > div.read-img::befo
     body.single-post .entry-title, body h1.page-title {
         font-size: 24px;
     }
+}
+
+.aft-dark-mode .wp-block-archives-list.wp-block-archives a:not(.has-text-color):hover,
+.aft-dark-mode .wp-block-latest-posts a:not(.has-text-color):hover, 
+.aft-dark-mode .wp-block-categories-list.wp-block-categories a:not(.has-text-color):hover,
+.aft-dark-mode .wp-block-latest-comments li.wp-block-latest-comments__comment a:hover {
+    color: #fff;
 }
